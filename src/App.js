@@ -6,6 +6,10 @@ class App extends Component {
     return (
       <div className="App">
         <CreateTodo />
+        <form>
+          <input type="text" placeholder="add todo" />
+          <input type="submit" />
+        </form>
       </div>
     );
   }
